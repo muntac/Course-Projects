@@ -1,0 +1,11 @@
+GAME Instructions
+
+To toggle features press buttons 1 to 5. Each number corresponds to the features
+needed for that question number on the assignment i.e. pressing 5 enables all features.
+
+Rest of the controls are as specified in the assignment description.
+
+The white bar at top left represents firing speed.
+The orange bar below it represents the feature state from 1 to 5.
+
+Wind direction/strength represented by the varying yellow bar on the far right.
