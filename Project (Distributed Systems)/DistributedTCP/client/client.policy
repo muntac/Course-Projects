@@ -1,0 +1,5 @@
+grant codeBase "file:/home/2013/mchowd15/distworkspace/DistributedTCP/client/" {
+    permission java.security.AllPermission;
+};
+
+

@@ -1,0 +1,17 @@
+cd distworkspace/DistributedTCP/bin
+
+All files have to be run from bin folder
+
+Set up RMs
+java ResImpl.ResourceManagerFlight
+java ResImpl.ResourceManagerCar
+java ResImpl.ResourceManagerHotel
+
+Set up Middleware
+java ResImpl.MiddlewareImpl
+
+Set up client
+java client
+
+---------------
+query syntax is same as original version

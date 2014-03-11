@@ -1,0 +1,6 @@
+Main contribution in server/ResImpl
+In:
+-MiddlewareImpl,
+-ResourceManager files
+
+Admittedly, design could be much cleaner and more modular.
