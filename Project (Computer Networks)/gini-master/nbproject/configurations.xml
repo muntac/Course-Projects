@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="backend">
+        <df name="include">
+          <in>dijkstra.h</in>
+          <in>udp.h</in>
+        </df>
+        <df name="src">
+          <df name="grouter">
+            <in>arp.c</in>
+            <in>classifier.c</in>
+            <in>cli.c</in>
+            <in>console.c</in>
+            <in>dijkstra.c</in>
+            <in>ethernet.c</in>
+            <in>filter.c</in>
+            <in>fragment.c</in>
+            <in>gnet.c</in>
+            <in>grouter.c</in>
+            <in>icmp.c</in>
+            <in>info.c</in>
+            <in>ip.c</in>
+            <in>message.c</in>
+            <in>mtu.c</in>
+            <in>ospf.c</in>
+            <in>packetcore.c</in>
+            <in>qdisc.c</in>
+            <in>roundrobin.c</in>
+            <in>routetable.c</in>
+            <in>simplequeue.c</in>
+            <in>tap.c</in>
+            <in>tapio.c</in>
+            <in>utils.c</in>
+            <in>vpl.c</in>
+            <in>wfq.c</in>
+          </df>
+          <df name="uswitch">
+            <in>cleanup.c</in>
+            <in>hash.c</in>
+            <in>multiswitch.c</in>
+            <in>port.c</in>
+            <in>uswitch.c</in>
+          </df>
+          <df name="vgini">
+            <df name="local">
+              <in>packet.c</in>
+              <in>proxy.c</in>
+              <in>utils.c</in>
+              <in>vpl.c</in>
+            </df>
+            <df name="remote">
+              <in>cli.c</in>
+              <in>main.c</in>
+              <in>packet.c</in>
+              <in>tapdev.c</in>
+              <in>utils.c</in>
+            </df>
+          </df>
+          <df name="wgini">
+            <in>802_11.c</in>
+            <in>802_11_frame.c</in>
+            <in>antenna.c</in>
+            <in>awgn.c</in>
+            <in>channel.c</in>
+            <in>cli.c</in>
+            <in>csma.c</in>
+            <in>energy.c</in>
+            <in>errmodel.c</in>
+            <in>event.c</in>
+            <in>fading.c</in>
+            <in>gwcenter.c</in>
+            <in>llc.c</in>
+            <in>mac.c</in>
+            <in>mathlib.c</in>
+            <in>mobility.c</in>
+            <in>nomac.c</in>
+            <in>propagation.c</in>
+            <in>stats.c</in>
+            <in>timer.c</in>
+            <in>vpl.c</in>
+            <in>wcard.c</in>
+            <in>wirelessphy.c</in>
+          </df>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>makepackage.sh</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="backend/include/dijkstra.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="backend/include/udp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="backend/src/grouter/arp.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/grouter/classifier.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/grouter/cli.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/grouter/console.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/grouter/dijkstra.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="backend/src/grouter/ethernet.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/grouter/filter.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/grouter/fragment.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/grouter/gnet.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/grouter/grouter.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/grouter/icmp.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/grouter/info.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/grouter/ip.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/grouter/message.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/grouter/mtu.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/grouter/ospf.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="backend/src/grouter/packetcore.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/grouter/qdisc.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/grouter/roundrobin.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/grouter/routetable.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/grouter/simplequeue.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/grouter/tap.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/grouter/tapio.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/grouter/utils.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/grouter/vpl.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/grouter/wfq.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/uswitch/cleanup.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/uswitch/hash.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/uswitch/multiswitch.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/uswitch/port.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/uswitch/uswitch.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/vgini/local/packet.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/vgini/local/proxy.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/vgini/local/utils.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/vgini/local/vpl.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/vgini/remote/cli.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/vgini/remote/main.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/vgini/remote/packet.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/vgini/remote/tapdev.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/vgini/remote/utils.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/wgini/802_11.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/wgini/802_11_frame.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/wgini/antenna.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/wgini/awgn.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/wgini/channel.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/wgini/cli.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/wgini/csma.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/wgini/energy.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/wgini/errmodel.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/wgini/event.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/wgini/fading.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/wgini/gwcenter.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/wgini/llc.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/wgini/mac.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/wgini/mathlib.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/wgini/mobility.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/wgini/nomac.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/wgini/propagation.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/wgini/stats.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/wgini/timer.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/wgini/vpl.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/wgini/wcard.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="backend/src/wgini/wirelessphy.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <folder path="0/backend/src/grouter">
+        <cTool>
+          <incDir>
+            <pElem>backend/src/grouter</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/backend/src/uswitch">
+        <cTool>
+          <incDir>
+            <pElem>backend/src/uswitch</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/backend/src/vgini/local">
+        <cTool>
+          <incDir>
+            <pElem>backend/src/vgini/local</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/backend/src/vgini/remote">
+        <cTool>
+          <incDir>
+            <pElem>backend/src/vgini/remote</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/backend/src/wgini">
+        <cTool>
+          <incDir>
+            <pElem>backend/src/wgini</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+    </conf>
+  </confs>
+</configurationDescriptor>

@@ -1,0 +1,32 @@
+import os
+
+
+# set gini directories.
+
+gini_include = '../../include'
+
+env = Environment(CPPPATH=gini_include)
+env.Append(CFLAGS='-g')
+env.Append(CFLAGS='-DHAVE_PTHREAD_RWLOCK=1')
+env.Append(CFLAGS='-DHAVE_GETOPT_LONG')
+
+# all source files in this directory
+# we could have used Glob('*.c') as well.. but explicit
+# listing provides finer control over the list.
+
+grouter_src = Glob('*.c')
+
+# some of the following library dependencies can be removed?
+# may be the termcap is not needed anymore..?
+# TODO: libslack should be removed.. required routines should be custom compiled
+
+grouter_libs = Split ("""readline
+			 termcap
+			 slack
+			 pthread
+			 util
+			 m""")
+
+grouter = env.Program('grouter', grouter_src, LIBS=grouter_libs)
+
+

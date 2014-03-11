@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="backend">
+        <df name="doc">
+        </df>
+        <df name="fs">
+        </df>
+        <df name="include">
+          <df name="helpdefs">
+          </df>
+          <df name="uswitch">
+            <in>cleanup.h</in>
+            <in>error.h</in>
+            <in>hash.h</in>
+            <in>multiswitch.h</in>
+            <in>port.h</in>
+            <in>uswitch.h</in>
+          </df>
+          <df name="wgini">
+            <in>802_11.h</in>
+            <in>802_11_frame.h</in>
+            <in>antenna.h</in>
+            <in>awgn.h</in>
+            <in>channel.h</in>
+            <in>cli.h</in>
+            <in>csma.h</in>
+            <in>energy.h</in>
+            <in>errmodel.h</in>
+            <in>event.h</in>
+            <in>fading.h</in>
+            <in>gwcenter.h</in>
+            <in>llc.h</in>
+            <in>mac.h</in>
+            <in>mathlib.h</in>
+            <in>mobility.h</in>
+            <in>nomac.h</in>
+            <in>propagation.h</in>
+            <in>stats.h</in>
+            <in>timer.h</in>
+            <in>vpl.h</in>
+            <in>wcard.h</in>
+            <in>wirelessphy.h</in>
+          </df>
+          <in>arp.h</in>
+          <in>classifier.h</in>
+          <in>classspec.h</in>
+          <in>cli.h</in>
+          <in>device.h</in>
+          <in>devicedefs.h</in>
+          <in>dijkstra.h</in>
+          <in>ethernet.h</in>
+          <in>filter.h</in>
+          <in>fragment.h</in>
+          <in>gnet.h</in>
+          <in>gpcap.h</in>
+          <in>grouter.h</in>
+          <in>helpdefs.h</in>
+          <in>icmp.h</in>
+          <in>info.h</in>
+          <in>ip.h</in>
+          <in>layer.h</in>
+          <in>message.h</in>
+          <in>moduledefs.h</in>
+          <in>msgqueue.h</in>
+          <in>mtu.h</in>
+          <in>ospf.h</in>
+          <in>packetcore.h</in>
+          <in>protocols.h</in>
+          <in>qdisc.h</in>
+          <in>routetable.h</in>
+          <in>simplequeue.h</in>
+          <in>tap.h</in>
+          <in>tapio.h</in>
+          <in>udp.h</in>
+          <in>vpl.h</in>
+        </df>
+        <df name="kernel">
+        </df>
+        <df name="src">
+          <df name="gloader">
+            <df name="xml">
+              <df name="dom">
+                <df name="de">
+                  <df name="LC_MESSAGES">
+                  </df>
+                </df>
+                <df name="en_US">
+                  <df name="LC_MESSAGES">
+                  </df>
+                </df>
+                <df name="ext">
+                  <df name="reader">
+                    <df name="test_suite">
+                    </df>
+                  </df>
+                </df>
+                <df name="fr">
+                  <df name="LC_MESSAGES">
+                  </df>
+                </df>
+                <df name="html">
+                </df>
+              </df>
+              <df name="marshal">
+              </df>
+              <df name="parsers">
+                <df name="xmlproc">
+                </df>
+              </df>
+              <df name="sax">
+                <df name="drivers">
+                </df>
+                <df name="drivers2">
+                </df>
+              </df>
+              <df name="schema">
+              </df>
+              <df name="unicode">
+              </df>
+              <df name="utils">
+              </df>
+              <df name="xpath">
+              </df>
+              <df name="xslt">
+              </df>
+            </df>
+          </df>
+          <df name="grouter">
+            <in>arp.c</in>
+            <in>classifier.c</in>
+            <in>cli.c</in>
+            <in>console.c</in>
+            <in>dijkstra.c</in>
+            <in>ethernet.c</in>
+            <in>filter.c</in>
+            <in>fragment.c</in>
+            <in>gnet.c</in>
+            <in>grouter.c</in>
+            <in>icmp.c</in>
+            <in>info.c</in>
+            <in>ip.c</in>
+            <in>message.c</in>
+            <in>mtu.c</in>
+            <in>ospf.c</in>
+            <in>packetcore.c</in>
+            <in>qdisc.c</in>
+            <in>roundrobin.c</in>
+            <in>routetable.c</in>
+            <in>simplequeue.c</in>
+            <in>tap.c</in>
+            <in>tapio.c</in>
+            <in>utils.c</in>
+            <in>vpl.c</in>
+            <in>wfq.c</in>
+          </df>
+          <df name="uswitch">
+            <in>cleanup.c</in>
+            <in>hash.c</in>
+            <in>multiswitch.c</in>
+            <in>port.c</in>
+            <in>uswitch.c</in>
+          </df>
+          <df name="vgini">
+            <df name="local">
+              <in>packet.c</in>
+              <in>packet.h</in>
+              <in>proxy.c</in>
+              <in>utils.c</in>
+              <in>utils.h</in>
+              <in>vpl.c</in>
+              <in>vpl.h</in>
+            </df>
+            <df name="remote">
+              <in>cli.c</in>
+              <in>cli.h</in>
+              <in>main.c</in>
+              <in>packet.c</in>
+              <in>packet.h</in>
+              <in>tapdev.c</in>
+              <in>tapdev.h</in>
+              <in>utils.c</in>
+              <in>utils.h</in>
+            </df>
+          </df>
+          <df name="wgini">
+            <in>802_11.c</in>
+            <in>802_11_frame.c</in>
+            <in>antenna.c</in>
+            <in>awgn.c</in>
+            <in>channel.c</in>
+            <in>cli.c</in>
+            <in>csma.c</in>
+            <in>energy.c</in>
+            <in>errmodel.c</in>
+            <in>event.c</in>
+            <in>fading.c</in>
+            <in>gwcenter.c</in>
+            <in>llc.c</in>
+            <in>mac.c</in>
+            <in>mathlib.c</in>
+            <in>mobility.c</in>
+            <in>nomac.c</in>
+            <in>propagation.c</in>
+            <in>stats.c</in>
+            <in>timer.c</in>
+            <in>vpl.c</in>
+            <in>wcard.c</in>
+            <in>wirelessphy.c</in>
+          </df>
+        </df>
+      </df>
+      <df name="frontend">
+        <df name="bin">
+        </df>
+        <df name="doc">
+        </df>
+        <df name="src">
+          <df name="gbuilder">
+            <df name="Core">
+            </df>
+            <df name="Devices">
+            </df>
+            <df name="images">
+            </df>
+            <df name="Network">
+            </df>
+            <df name="UI">
+            </df>
+          </df>
+        </df>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
